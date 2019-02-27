@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\goda\source\repos\uturingmachine\uturingmachine\</FILEPATH>
+      <FILENAME>uturingmachine.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '180264' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\goda\source\repos\uturingmachine\uturingmachine\</FILEPATH>
+      <FILENAME>uturingmachine.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Turing::new_symb' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Turing::{ctor}</FUNCTION>
+    <DECORATED>??0Turing@@QAE@XZ</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
